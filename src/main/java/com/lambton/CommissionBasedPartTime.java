@@ -15,4 +15,8 @@ public class CommissionBasedPartTime
     public void setCommissionPerc(double commissionPerc) {
         this.commissionPerc = commissionPerc;
     }
+
+    public void printMyData() {
+
+    }
 }
