@@ -6,7 +6,10 @@ public class Car extends
     private Double distanceTravelled;
     private String capacity;
 
-    
+    public Car(java.lang.Double distanceTravelled, java.lang.String capacity) {
+        this.distanceTravelled = distanceTravelled;
+        this.capacity = capacity;
+    }
 
     public Double getDistanceTravelled() {
         return distanceTravelled;
