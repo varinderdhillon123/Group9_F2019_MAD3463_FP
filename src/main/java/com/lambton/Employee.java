@@ -8,7 +8,7 @@ public class Employee
     private int age;
     private Vehicle vehicle;
     private double earnings;
-
+    private double test;
     public String getName() {
         return name;
     }
@@ -27,6 +27,8 @@ public class Employee
         int age=Integer.valueOf(end.toString().substring(0, 4))  ;
         age=age-yearofBirth-1;
         return age;
+
+
     }
 
 
@@ -57,4 +59,6 @@ public class Employee
     public void setEarnings(double earnings) {
         this.earnings = earnings;
     }
+
+
 }
