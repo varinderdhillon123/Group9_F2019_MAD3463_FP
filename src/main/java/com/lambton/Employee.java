@@ -8,7 +8,7 @@ public class Employee
     private int age;
     private Vehicle vehicle;
     private double earnings;
-    private double test;
+    private double test; /**/
     public String getName() {
         return name;
     }
