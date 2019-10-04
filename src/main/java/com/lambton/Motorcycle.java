@@ -1,4 +1,7 @@
 package com.lambton;
 
-public class Motorcycle {
+public class Motorcycle extends Vehicle
+
+
+{
 }
