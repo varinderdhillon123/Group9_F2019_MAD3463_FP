@@ -1,10 +1,11 @@
 package com.lambton;
 
-public class CommissionBasedPartTime
+public class CommissionBasedPartTime extends PartTime
 {
     private double commissionPerc;
 
-    public CommissionBasedPartTime(double commissionPerc) {
+    public CommissionBasedPartTime(String name, int age, float rate, float hoursWorked, double commissionPerc) {
+        super(name, age, rate, hoursWorked);
         this.commissionPerc = commissionPerc;
     }
 
