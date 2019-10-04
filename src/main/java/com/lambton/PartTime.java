@@ -26,7 +26,7 @@ public class PartTime
         this.hoursWorked = hoursWorked;
     }
     public void printMyData(){
-        
+
     }
 
 
