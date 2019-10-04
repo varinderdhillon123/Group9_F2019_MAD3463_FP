@@ -22,7 +22,7 @@ public class Employee
 
     public int calcBirthYear(int yearofBirth) {
 
-        
+
         LocalDate end =  LocalDate.now();
         int age=Integer.valueOf(end.toString().substring(0, 4))  ;
         age=age-yearofBirth-1;
