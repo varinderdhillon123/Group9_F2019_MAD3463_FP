@@ -4,4 +4,6 @@ public class Motorcycle extends Vehicle
 
 
 {
+
+    private Double distanceTravelled;
 }
