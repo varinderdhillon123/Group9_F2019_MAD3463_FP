@@ -9,4 +9,12 @@ public class FixedBasedPartTime
     public FixedBasedPartTime(double fixedAmount) {
         this.fixedAmount = fixedAmount;
     }
+
+    public double getFixedAmount() {
+        return fixedAmount;
+    }
+
+    public void setFixedAmount(double fixedAmount) {
+        this.fixedAmount = fixedAmount;
+    }
 }
