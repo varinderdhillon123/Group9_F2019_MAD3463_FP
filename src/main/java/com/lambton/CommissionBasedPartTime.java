@@ -19,4 +19,12 @@ public class CommissionBasedPartTime
     public void printMyData() {
 
     }
+
+    public void setcommissionPerc(double commissionPerc) {
+        if (commissionPerc > 0.0) {
+            this.commissionPerc = commissionPerc;
+        } else {
+            throw new IllegalArgumentException("Commission rate must be greater than zero");
+        }
+    }
 }
