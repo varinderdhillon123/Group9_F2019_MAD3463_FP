@@ -7,4 +7,12 @@ public class CommissionBasedPartTime
     public CommissionBasedPartTime(double commissionPerc) {
         this.commissionPerc = commissionPerc;
     }
+
+    public double getCommissionPerc() {
+        return commissionPerc;
+    }
+
+    public void setCommissionPerc(double commissionPerc) {
+        this.commissionPerc = commissionPerc;
+    }
 }
