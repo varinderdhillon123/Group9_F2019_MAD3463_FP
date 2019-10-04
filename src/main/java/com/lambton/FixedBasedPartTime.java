@@ -17,4 +17,8 @@ public class FixedBasedPartTime
     public void setFixedAmount(double fixedAmount) {
         this.fixedAmount = fixedAmount;
     }
-}
+    public void printMyData() {
+    }
+    }
+
+
