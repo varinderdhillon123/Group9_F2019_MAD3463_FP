@@ -1,6 +1,6 @@
 package com.lambton;
 
-public class Car extends
+public class Car extends Vehicle
 
 {
     private Double distanceTravelled;
