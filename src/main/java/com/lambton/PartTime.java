@@ -25,4 +25,9 @@ public class PartTime
     public void setHoursWorked(float hoursWorked) {
         this.hoursWorked = hoursWorked;
     }
+    public void printMyData(){
+        
+    }
+
+
 }
