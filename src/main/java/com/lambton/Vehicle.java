@@ -38,5 +38,9 @@ public class Vehicle {
         public void setPlate(String plate) {
             this.plate = plate;
         }
+
+        }
+
+
     }
-}
+
