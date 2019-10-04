@@ -13,4 +13,12 @@ public class Motorcycle extends Vehicle
         this.distanceTravelled=distanceTravelled;
 
     }
+
+    public Double getDistanceTravelled() {
+        return distanceTravelled;
+    }
+
+    public void setDistanceTravelled(Double distanceTravelled) {
+        this.distanceTravelled = distanceTravelled;
+    }
 }
